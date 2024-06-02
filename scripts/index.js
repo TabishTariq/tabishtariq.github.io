@@ -1,6 +1,6 @@
 function main() {
   registerHeaderNavItemEvents();
-  handleOpacityOnScroll();
+  handleOnScrollActions();
 }
 
 $(document).ready(main);
