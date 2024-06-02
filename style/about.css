@@ -1,0 +1,8 @@
+about {
+  display: flex;
+  height: 98vh;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}

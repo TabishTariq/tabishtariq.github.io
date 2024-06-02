@@ -47,3 +47,24 @@ a.secondary-button:hover {
   width: 30px;
   height: 30px;
 }
+
+/* scrollbar width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* scrollbar track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to bottom, #ed239f, #1345e6);
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(to bottom, #1345e6, #ed239f);
+}
