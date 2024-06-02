@@ -9,6 +9,20 @@ header {
   left: 0;
   z-index: 100;
   transition: ease-in-out;
+  margin-top: 20px;
+}
+
+info {
+  position: fixed;
+  z-index: 101;
+  width: 100%;
+  background-color: red;
+  color: white;
+  left: 0;
+  top: 0;
+  text-align: center;
+  padding: 5px;
+  background-image: linear-gradient(to right, #1345e6, #ed239f); */
 }
 
 #title {
