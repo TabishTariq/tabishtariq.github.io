@@ -1,8 +1,52 @@
 about {
   display: flex;
-  height: 98vh;
   left: 0;
   justify-content: center;
   align-items: center;
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+about div.info {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 50px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
   background-color: white;
+  border-radius: 20px;
+}
+
+about div.image {
+  flex: 1;
+}
+
+about div.info p {
+  font-weight: 500;
+  color: #797979;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+about div.info p.subtitle {
+  color: #05364d;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+about div.info h1 {
+  color: #05364d;
+  font-size: 40px;
+  font-weight: 550;
+  line-height: 0px;
+}
+
+about p#paragraph {
+  font-weight: 300;
+  color: #666666;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: none;
+  width: 600px;
 }
