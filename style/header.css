@@ -9,6 +9,7 @@ header {
   left: 0;
   z-index: 100;
   transition: ease-in-out;
+  /* TODO: Will be removed once development is completed */
   margin-top: 20px;
 }
 

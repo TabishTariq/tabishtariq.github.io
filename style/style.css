@@ -62,7 +62,7 @@ a.secondary-button:hover {
 /* scrollbar handle */
 ::-webkit-scrollbar-thumb {
   background-image: linear-gradient(to bottom, #ed239f, #1345e6);
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 /* scrollbar handle on hover */
