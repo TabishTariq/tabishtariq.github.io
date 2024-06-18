@@ -30,7 +30,9 @@ function handleActiveNavLinksOnScroll(scrollValue) {
 
   if (scrollValue < 400) {
     $("#home-nav").addClass("active");
-  } else {
+  } else if (scrollValue < 1000) {
     $("#about-nav").addClass("active");
+  } else {
+    $("#skills-nav").addClass("active");
   }
 }
