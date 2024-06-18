@@ -10,7 +10,7 @@ banner {
 banner div.info {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   padding: 10px 50px;
   text-transform: uppercase;
 }
@@ -37,6 +37,8 @@ banner div.info h1 {
 
 banner div.image {
   flex: 1;
+  display: flex;
+  justify-content: flex-start;
 }
 
 #social-links {

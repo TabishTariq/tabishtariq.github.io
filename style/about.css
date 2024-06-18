@@ -3,7 +3,6 @@ about {
   left: 0;
   justify-content: center;
   align-items: center;
-  background-color: #f2f2f2;
   padding: 50px;
 }
 
@@ -14,12 +13,13 @@ about div.info {
   padding: 20px 50px;
   padding-bottom: 40px;
   text-transform: uppercase;
-  background-color: white;
   border-radius: 20px;
 }
 
 about div.image {
   flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 about div.info p {
