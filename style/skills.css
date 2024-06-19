@@ -4,13 +4,47 @@ skills {
   justify-content: center;
   align-items: center;
   padding: 50px;
-  background-color: white;
   flex-wrap: wrap;
+}
+
+div.skill-images {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div.skills-list div.title {
+  width: 100%;
+}
+
+div.skills-list div.title h1 {
+  color: #05364d;
+  font-size: 30px;
+  font-weight: 550;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div.skill-images img {
+  padding: 20px 40px;
+}
+
+div.skills-list {
+  flex: 1.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
 div.skill {
   display: flex;
-  padding: 0px 40px;
+  padding: 20px 40px;
   height: 100px;
 }
 
@@ -36,7 +70,7 @@ div.skill-title p {
 }
 
 .skill-value {
-  width: 80%;
+  transition: 0.3s ease;
   height: 100%;
   background-image: linear-gradient(to right, #ed239f, #1345e6);
   border-radius: 50px 50px 50px 50px;
