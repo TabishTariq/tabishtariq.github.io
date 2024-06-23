@@ -1,0 +1,79 @@
+experience {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+experience .main-container {
+  padding: 20px 0px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+
+.list-experience {
+  overflow-y: auto;
+  max-height: 680px;
+  display: flex;
+  flex-direction: column;
+}
+
+experience .main-container div.title {
+  color: #05364d;
+  font-weight: 550;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+experience .main-container div.title h1 {
+  line-height: 0;
+}
+
+experience .main-container div.title p {
+  color: #a6a6a6;
+}
+
+.experience {
+  display: flex;
+  flex: 1;
+  max-width: 700px;
+  padding: 20px 60px;
+}
+
+.experience .experience-details {
+  margin-left: 20px;
+}
+
+.experience .experience-details p.job-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.experience .experience-details p.job-title:hover {
+  text-decoration: underline;
+}
+
+.experience .experience-details p.company-title {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.experience div.img {
+  margin-top: 10px;
+}
+
+.experience div.img img {
+  width: 100px;
+}
+
+.experience .experience-details p.joining-date {
+  font-size: 14px;
+  color: #808080;
+  line-height: 0;
+}
+
+.experience .experience-details p.location {
+  font-size: 14px;
+  color: #808080;
+  line-height: 1;
+}

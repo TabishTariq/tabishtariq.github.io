@@ -22,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="/style/banner.css" />
     <link rel="stylesheet" type="text/css" href="/style/about.css" />
     <link rel="stylesheet" type="text/css" href="/style/skills.css" />
+    <link rel="stylesheet" type="text/css" href="/style/experience.css" />
   </head>
 
   <body>
@@ -36,7 +37,7 @@
         <a id="home-nav" href="#home" class="active">Home</a>
         <a id="about-nav" href="#about">About</a>
         <a id="skills-nav" href="#skills">Skills</a>
-        <a id="experience-nav" href="#">Experience</a>
+        <a id="experience-nav" href="#experience">Experience</a>
         <a id="portfolio-nav" href="#">Portfolio</a>
         <a id="contact-nav" href="#">Contact</a>
       </div>
@@ -289,6 +290,67 @@
         <img src="/icons/skills/react-native.png" width="100px" />
       </div>
     </skills>
+
+    <experience id="experience">
+      <div class="main-container">
+        <div class="title">
+          <h1>Experience</h1>
+          <p>3 Years & 1 Month</p>
+        </div>
+
+        <div class="list-experience">
+          <div class="experience">
+            <div class="img">
+              <a href="https://www.7vals.com/" target="top"
+                ><img src="/icons/companies/7vals.jpeg"
+              /></a>
+            </div>
+
+            <div class="experience-details">
+              <p class="job-title" onclick="openURL('https://www.7vals.com/')">
+                Software Engineer
+              </p>
+              <p class="company-title">7Vals - Full Time</p>
+              <p class="joining-date">August 2022 - Present</p>
+              <p class="location">Lahore, Punjab Pakistan - On Site</p>
+
+              <div class="job-details">
+                Working on ROR based web app by creating new features<br />
+                Handling and creating secure APIs for the mobile App.<br />
+                Creating reusable components in React Native mobile app and
+                implementing new features.<br />
+                Worked on EZOfficeinventory , EZO-CMMS, EZRentals
+              </div>
+            </div>
+          </div>
+
+          <div class="experience">
+            <div class="img">
+              <a href="https://gcu.edu.pk/" target="top"
+                ><img src="/icons/companies/GCU.jpeg"
+              /></a>
+            </div>
+
+            <div class="experience-details">
+              <p class="job-title" onclick="openURL('https://gcu.edu.pk/')">
+                MERN Stack Developer
+              </p>
+              <p class="company-title">DIT GCU - Full Time</p>
+              <p class="joining-date">June 2021 - July 2022</p>
+              <p class="location">Lahore, Punjab Pakistan - On Site</p>
+
+              <div class="job-details">
+                Creating and developing software using ReactJS, ExpressJS,
+                MySQL, NodeJs.<br />
+                Working on GCU Hostel System, GCU HRM System & Workflow.<br />
+                Server side management & deployments on on premises server.<br />
+                Client meetings to gather requirements, client training etc.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </experience>
   </body>
 
   <script

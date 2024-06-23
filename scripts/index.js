@@ -4,4 +4,8 @@ function main() {
   updateSkillValues();
 }
 
+function openURL(url) {
+  window.open(url, "top");
+}
+
 $(document).ready(main);
