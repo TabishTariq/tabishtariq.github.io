@@ -13,6 +13,8 @@ div.skill-images {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  height: 820px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
 div.skills-list div.title {
@@ -28,18 +30,22 @@ div.skills-list div.title h1 {
 }
 
 div.skill-images img {
-  padding: 20px 40px;
+  padding: 20px 20px;
 }
 
 div.skills-list {
   flex: 1.7;
+  background-color: white;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+
+div.all-skills {
+  overflow-y: auto;
+  height: 744px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 20px;
-  background-color: white;
-  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
 div.skill {
